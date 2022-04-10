@@ -1,2 +1,2 @@
 # leetcode-notes
-a repository about leetcode records &amp; notes
+a repository about leetcode records &amp; notes.
