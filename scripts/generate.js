@@ -33,9 +33,10 @@ const mergedQuestions = questions.filter(({index}) => answersMap[index]).map(({
     }).map((answerFileName) => {
         const name = answerFileName.split('.');
         const ext = name.pop();
+				const type = name.pop();
         // const label = extLabelMap[ext];
 				// md文档格式特殊处理
-				const label = ext === 'md' ? extLabelMap[name[name.length - 1]] : extLabelMap[ext]
+				const label = ext === 'md' ? extLabelMap[type] : extLabelMap[ext]
         return `[${label}](./src/${name.join('.')}/${answerFileName})`;
     }).join(' ');
 
