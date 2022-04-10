@@ -2,7 +2,7 @@
 
 ## 相关链接
 
-[LeetCode个人主页](https://leetcode-cn.com/u/jiangshanmeta/)
+[LeetCode个人主页](https://leetcode-cn.com/u/yin-yue-s3/)
 
 ## 目录
 
