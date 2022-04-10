@@ -25,6 +25,7 @@ const answersMap = fileList.reduce((obj, dirName) => {
 const mergedQuestions = questions.filter(({index}) => answersMap[index]).map(({
     index,
     title,
+		type,
     difficulty,
 }) => {
     const answers = (answersMap[index] || []).filter((answerFileName) => {
@@ -40,7 +41,8 @@ const mergedQuestions = questions.filter(({index}) => answersMap[index]).map(({
         return `[${label}](./src/${name.join('.')}/${answerFileName})`;
     }).join(' ');
 
-    return `| ${index} | ${title} | ${answers} | ${difficultyMap[difficulty]}  |`;
+    // return `| ${index} | ${title} | ${answers} | ${desc}  |${difficultyMap[difficulty]}  |`;
+    return `| ${index} | ${title} | ${answers} |${difficultyMap[difficulty]}  |`;
 }).join('\n');
 
 const prefix = fs.readFileSync(path.join(__dirname, './_prefix.md'), 'utf8');

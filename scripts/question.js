@@ -26,7 +26,11 @@ function getQuestions () {
 }
 const lcof2FlagStr = '剑指 Offer II';
 function writeLocalQuestion (json) {
-    const questionList = json.stat_status_pairs.map((item) => {
+    const questionList = json.stat_status_pairs.map((item, index) => {
+			// if (index === 0) {
+			// 	console.log(item)
+			// 	console.log(item.stat.question__title)
+			// }
         const data = {};
         const stat = item.stat;
         data.id = stat.question_id;
@@ -37,12 +41,13 @@ function writeLocalQuestion (json) {
         if (data.index.includes('.')) {
             data.index = data.index.replace('.', '_');
         }
-
         data.title = stat.question__title;
+				data.desc = stat.question__title;
         data.title_slug = stat.question__title_slug;
         data.difficulty = item.difficulty.level;
         return data;
     });
+		
 
     const algorithms = [];
     const lcp = [];
@@ -53,7 +58,7 @@ function writeLocalQuestion (json) {
     // 程序员面试经典
     const lcci = [];
     const lcs = [];
-
+		console.log(questionList[0])
     questionList.forEach((question) => {
         const index = question.index;
         const title_slug = question.title_slug;
@@ -73,7 +78,8 @@ function writeLocalQuestion (json) {
             console.log(question);
         }
     });
-
+		console.log(questionList[0])
+		console.log(algorithms[0])
     algorithms.sort((a, b) => a.index - b.index);
     lcp.sort((a, b) => {
         const indexA = a.index.split(' ')[1];
