@@ -6,5 +6,5 @@
 
 ## 目录
 
-| index |       title            | code           |   type      | Difficulty   |
-| :--:  | :-------------------:  | :---:          |   :--:      |:--:         |
+| index |       title            | code           | Difficulty   |
+| :--:  | :-------------------:  | :---:          |:--:         |
