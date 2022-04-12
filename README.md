@@ -12,4 +12,5 @@
 | 0026 | Remove Duplicates from Sorted Array | [JavaScript](./src/0026.remove-duplicates-from-sorted-array/0026.remove-duplicates-from-sorted-array.js.md) |Easy  |
 | 0027 | Remove Element | [JavaScript](./src/0027.remove-element/0027.remove-element.js.md) |Easy  |
 | 0066 | Plus One | [JavaScript](./src/0066.plus-one/0066.plus-one.js.md) |Easy  |
+| 0088 | Merge Sorted Array | [JavaScript](./src/0088.merge-sorted-array/0088.merge-sorted-array.js.md) |Easy  |
 | 0796 | Rotate String | [JavaScript](./src/0796.reaching-points/0796.reaching-points.js.md) |Easy  |
