@@ -12,6 +12,7 @@ const extLabelMap = languages.reduce((obj, { label, ext, }) => {
 }, {});
 
 const questions = require('./question.json');
+const questionsExtra = require('./questionExtra.json');
 
 const fileList = fs.readdirSync(path.join(__dirname, '../src'));
 
@@ -38,8 +39,13 @@ const mergedQuestions = questions.filter(({index}) => answersMap[index]).map(({
 		const label = ext === 'md' ? extLabelMap[type] : extLabelMap[ext]
         return `[${label}](./src/${name.join('.')}/${answerFileName})`;
     }).join(' ');
-
-    return `| ${index} | ${title} | ${answers} |${difficultyMap[difficulty]}  |`;
+		const extraInfo = questionsExtra.filter(item => item.index === index)[0] || {
+			"index": "-",
+			"desc": "-",
+			"type": "-",
+			"keywords": "-"
+		};
+    return `| ${index} | ${title} | ${extraInfo.desc} | ${extraInfo.type} |${answers} |${difficultyMap[difficulty]}  |`;
 }).join('\n');
 
 const prefix = fs.readFileSync(path.join(__dirname, './_prefix.md'), 'utf8');
