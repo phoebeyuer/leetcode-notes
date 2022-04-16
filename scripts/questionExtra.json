@@ -64,5 +64,11 @@
 		"desc": "唯一摩尔斯密码词",
 		"type": "Array",
 		"keywords": ""
+	},
+	{
+		"index": "0108",
+		"desc": "将有序数组转换为二叉搜索树",
+		"type": "Array,Tree",
+		"keywords": ""
 	}
 ]
