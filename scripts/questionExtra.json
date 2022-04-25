@@ -1,74 +1,80 @@
 [
-	{
-		"index": "0001",
-		"desc": "两数之和",
-		"type": "Array",
-		"keywords": ""
-	},
-	{
-		"index": "0026",
-		"desc": "删除有序数组中的重复项",
-		"type": "Array",
-		"keywords": ""
-	},
-	{
-		"index": "0027",
-		"desc": "移除元素",
-		"type": "Array",
-		"keywords": ""
-	},
-	{
-		"index": "0035",
-		"desc": "搜索插入位置",
-		"type": "Array",
-		"keywords": ""
-	},
-	{
-		"index": "0053",
-		"desc": "最大子数组和",
-		"type": "Array",
-		"keywords": ""
-	},
-	{
-		"index": "0066",
-		"desc": "加一",
-		"type": "Array",
-		"keywords": ""
-	},
-	{
-		"index": "0088",
-		"desc": "合并两个有序数组",
-		"type": "Array",
-		"keywords": ""
-	},
-	{
-		"index": "0380",
-		"desc": "O(1)时间插入、删除和获取随机元素",
-		"type": "Array",
-		"keywords": ""
-	},
-	{
-		"index": "0762",
-		"desc": "二进制表示中质数个计算置位",
-		"type": "Array",
-		"keywords": ""
-	},
-	{
-		"index": "0796",
-		"desc": "旋转字符串",
-		"type": "Array",
-		"keywords": ""
-	},
-	{
-		"index": "0804",
-		"desc": "唯一摩尔斯密码词",
-		"type": "Array",
-		"keywords": ""
-	},
-	{
-		"index": "0108",
-		"desc": "将有序数组转换为二叉搜索树",
-		"type": "Array,Tree",
-		"keywords": ""
-	}
+  {
+    "index": "0001",
+    "desc": "两数之和",
+    "type": "Array",
+    "keywords": ""
+  },
+  {
+    "index": "0026",
+    "desc": "删除有序数组中的重复项",
+    "type": "Array",
+    "keywords": ""
+  },
+  {
+    "index": "0027",
+    "desc": "移除元素",
+    "type": "Array",
+    "keywords": ""
+  },
+  {
+    "index": "0035",
+    "desc": "搜索插入位置",
+    "type": "Array",
+    "keywords": ""
+  },
+  {
+    "index": "0053",
+    "desc": "最大子数组和",
+    "type": "Array",
+    "keywords": ""
+  },
+  {
+    "index": "0066",
+    "desc": "加一",
+    "type": "Array",
+    "keywords": ""
+  },
+  {
+    "index": "0088",
+    "desc": "合并两个有序数组",
+    "type": "Array",
+    "keywords": ""
+  },
+  {
+    "index": "0380",
+    "desc": "O(1)时间插入、删除和获取随机元素",
+    "type": "Array",
+    "keywords": ""
+  },
+  {
+    "index": "0762",
+    "desc": "二进制表示中质数个计算置位",
+    "type": "Array",
+    "keywords": ""
+  },
+  {
+    "index": "0796",
+    "desc": "旋转字符串",
+    "type": "Array",
+    "keywords": ""
+  },
+  {
+    "index": "0804",
+    "desc": "唯一摩尔斯密码词",
+    "type": "Array",
+    "keywords": ""
+  },
+  {
+    "index": "0108",
+    "desc": "将有序数组转换为二叉搜索树",
+    "type": "Array,Tree",
+    "keywords": ""
+  },
+  {
+    "index": "0398",
+    "desc": "随机数索引",
+    "type": "Array",
+    "keywords": ""
+  }
 ]

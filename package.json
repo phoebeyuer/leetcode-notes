@@ -7,7 +7,8 @@
     "generate": "node scripts/generate.js",
     "question": "node scripts/question.js",
     "sync": "node scripts/sync.js",
-    "append": "node scripts/append.js"
+    "append": "node scripts/append.js",
+    "prettier": "prettier --write ."
   },
   "author": "jiangshanmeta",
   "license": "MIT",
@@ -19,7 +20,8 @@
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^2.6.2"
   },
   "dependencies": {
     "typescript": "^4.2.3"
