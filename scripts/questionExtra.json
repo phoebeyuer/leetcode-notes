@@ -1,5 +1,17 @@
 [
   {
+    "index": "0905",
+    "desc": "按奇偶排序数组",
+    "type": "Array, Double pointer",
+    "keywords": ""
+  },
+  {
+    "index": "0933",
+    "desc": "最近的请求次数",
+    "type": "Queue",
+    "keywords": ""
+  },
+  {
     "index": "0001",
     "desc": "两数之和",
     "type": "Array",

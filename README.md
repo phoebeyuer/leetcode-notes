@@ -21,3 +21,5 @@
 | 0762 | Prime Number of Set Bits in Binary Representation | 二进制表示中质数个计算置位 | Array |[JavaScript](./src/0762.find-anagram-mappings/0762.find-anagram-mappings.js.md) |Easy  |
 | 0796 | Rotate String | 旋转字符串 | Array |[JavaScript](./src/0796.reaching-points/0796.reaching-points.js.md) |Easy  |
 | 0804 | Unique Morse Code Words | 唯一摩尔斯密码词 | Array |[JavaScript](./src/0804.unique-morse-code-words/0804.unique-morse-code-words.js.md) |Easy  |
+| 0905 | Sort Array By Parity | 按奇偶排序数组 | Array, Double pointer |[JavaScript](./src/0905.sort-array-by-parity/0905.sort-array-by-parity.js.md) |Easy  |
+| 0933 | Number of Recent Calls | 最近的请求次数 | Queue |[JavaScript](./src/0933.number-of-recent-calls/0933.number-of-recent-calls.js.md) |Easy  |
