@@ -1,5 +1,17 @@
 [
   {
+    "index": "0119",
+    "desc": "杨辉三角Ⅱ",
+    "type": "Array",
+    "keywords": ""
+  },
+  {
+    "index": "0118",
+    "desc": "杨辉三角",
+    "type": "Array",
+    "keywords": ""
+  },
+  {
     "index": "0905",
     "desc": "按奇偶排序数组",
     "type": "Array, Double pointer",
