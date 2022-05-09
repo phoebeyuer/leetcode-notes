@@ -1,5 +1,11 @@
 [
   {
+    "index": "0942",
+    "desc": "增减字符串匹配",
+    "type": "Array",
+    "keywords": ""
+  },
+  {
     "index": "0119",
     "desc": "杨辉三角Ⅱ",
     "type": "Array",
