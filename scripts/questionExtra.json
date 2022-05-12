@@ -1,5 +1,11 @@
 [
   {
+    "index": "0944",
+    "desc": "删列造序",
+    "type": "Array",
+    "keywords": ""
+  },
+  {
     "index": "0942",
     "desc": "增减字符串匹配",
     "type": "Array",
