@@ -2,5 +2,5 @@
 . "$(dirname "$0")/_/husky.sh"
 
 npm run generate
-git add
+git add README.md
 npx lint-staged
